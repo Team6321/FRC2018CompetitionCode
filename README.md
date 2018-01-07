@@ -2,3 +2,4 @@
 
 Contributors
 Jordan Yamada - Mentor; Coach
+Joshua Bryant - Mentor; Coach
