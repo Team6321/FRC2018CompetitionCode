@@ -550,6 +550,11 @@ AddOutputFilter chunkFilter
 			<Item Name="libc.so.6" Type="Document" URL="libc.so.6">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Drive Operations.ctl" Type="VI" URL="../../../LabVIEW Data/2018 Robot Project/Drive/Implementation/Drive Operations.ctl"/>
+			<Item Name="Drive Setpoints.ctl" Type="VI" URL="../../../LabVIEW Data/2018 Robot Project/Drive/Implementation/Drive Setpoints.ctl"/>
+			<Item Name="Drive Command Helper.vi" Type="VI" URL="../../../LabVIEW Data/2018 Robot Project/Drive/Implementation/Infrastructure/Drive Command Helper.vi"/>
+			<Item Name="Drive Published Globals.vi" Type="VI" URL="../../../LabVIEW Data/2018 Robot Project/Drive/Implementation/Drive Published Globals.vi"/>
+			<Item Name="StatesEnum.ctl" Type="VI" URL="../StatesEnum.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
