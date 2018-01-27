@@ -26,7 +26,12 @@
 			</Item>
 			<Item Name="FRC Simulated.xml" Type="Document" URL="../FRC Simulated.xml"/>
 		</Item>
+		<Item Name="Testing" Type="Folder" URL="../Testing">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Robot Simulation Readme.html" Type="Document" URL="../Robot Simulation Readme.html"/>
+		<Item Name="driveLogicStates.ctl" Type="VI" URL="../Drive Logic/driveLogicStates.ctl"/>
+		<Item Name="Untitled 41.vi" Type="VI" URL="../Drive Logic/Untitled 41.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -124,6 +129,9 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Vision" Type="Folder" URL="../Vision">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Drive Logic" Type="Folder" URL="../Drive Logic">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
@@ -554,7 +562,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Drive Setpoints.ctl" Type="VI" URL="../../../LabVIEW Data/2018 Robot Project/Drive/Implementation/Drive Setpoints.ctl"/>
 			<Item Name="Drive Command Helper.vi" Type="VI" URL="../../../LabVIEW Data/2018 Robot Project/Drive/Implementation/Infrastructure/Drive Command Helper.vi"/>
 			<Item Name="Drive Published Globals.vi" Type="VI" URL="../../../LabVIEW Data/2018 Robot Project/Drive/Implementation/Drive Published Globals.vi"/>
-			<Item Name="StatesEnum.ctl" Type="VI" URL="../StatesEnum.ctl"/>
+			<Item Name="Control 2.ctl" Type="VI" URL="../Control 2.ctl"/>
+			<Item Name="DrivetrainStateMachines(SubVI).vi" Type="VI" URL="../DrivetrainStateMachines(SubVI).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
