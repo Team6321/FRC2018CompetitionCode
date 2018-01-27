@@ -32,7 +32,9 @@
 		<Item Name="Robot Simulation Readme.html" Type="Document" URL="../Robot Simulation Readme.html"/>
 		<Item Name="driveLogicStates.ctl" Type="VI" URL="../Drive Logic/driveLogicStates.ctl"/>
 		<Item Name="Untitled 41.vi" Type="VI" URL="../Drive Logic/Untitled 41.vi"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="driveToCreateCommands.vi" Type="VI" URL="../Drive/Implementation/driveToCreateCommands.vi"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
