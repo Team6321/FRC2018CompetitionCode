@@ -33,6 +33,9 @@
 		<Item Name="driveLogicStates.ctl" Type="VI" URL="../Drive Logic/driveLogicStates.ctl"/>
 		<Item Name="Untitled 41.vi" Type="VI" URL="../Drive Logic/Untitled 41.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="memLib.lvlib" Type="Library" URL="/&lt;vilib&gt;/FRCT Team# 3937  Breakaway/Memory Library/memLib.lvlib"/>
+			</Item>
 			<Item Name="driveToCreateCommands.vi" Type="VI" URL="../Drive/Implementation/driveToCreateCommands.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
@@ -541,6 +544,7 @@ AddOutputFilter chunkFilter
 				<Item Name="NetComm_MatchType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_MatchType.ctl"/>
 				<Item Name="NetComm_getMatchInfo.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getMatchInfo.vi"/>
 				<Item Name="WPI_CameraApplyServerCameraSettings.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/USB Support/WPI_CameraApplyServerCameraSettings.vi"/>
+				<Item Name="memLib.lvlib" Type="Library" URL="/&lt;vilib&gt;/FRCT Team# 3937  Breakaway/Memory Library/memLib.lvlib"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -560,12 +564,6 @@ AddOutputFilter chunkFilter
 			<Item Name="libc.so.6" Type="Document" URL="libc.so.6">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Drive Operations.ctl" Type="VI" URL="../../../LabVIEW Data/2018 Robot Project/Drive/Implementation/Drive Operations.ctl"/>
-			<Item Name="Drive Setpoints.ctl" Type="VI" URL="../../../LabVIEW Data/2018 Robot Project/Drive/Implementation/Drive Setpoints.ctl"/>
-			<Item Name="Drive Command Helper.vi" Type="VI" URL="../../../LabVIEW Data/2018 Robot Project/Drive/Implementation/Infrastructure/Drive Command Helper.vi"/>
-			<Item Name="Drive Published Globals.vi" Type="VI" URL="../../../LabVIEW Data/2018 Robot Project/Drive/Implementation/Drive Published Globals.vi"/>
-			<Item Name="Control 2.ctl" Type="VI" URL="../Control 2.ctl"/>
-			<Item Name="DrivetrainStateMachines(SubVI).vi" Type="VI" URL="../DrivetrainStateMachines(SubVI).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
