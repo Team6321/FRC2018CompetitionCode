@@ -101,6 +101,7 @@
 			<Item Name="Drive Command Helper.vi" Type="VI" URL="../Drive/Implementation/Infrastructure/Drive Command Helper.vi"/>
 			<Item Name="Drive for Time.vi" Type="VI" URL="../Drive/Commands/Drive for Time.vi"/>
 			<Item Name="Drive Immediate.vi" Type="VI" URL="../Drive/Commands/Drive Immediate.vi"/>
+			<Item Name="Ramps (SubVI).vi" Type="VI" URL="../Ramps (SubVI).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -198,6 +199,9 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Vision" Type="Folder" URL="../Vision">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Ramps" Type="Folder" URL="../Ramps">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
