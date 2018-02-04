@@ -554,7 +554,6 @@ AddOutputFilter chunkFilter
 			<Item Name="libc.so.6" Type="Document" URL="libc.so.6">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SetIntakeState.vi" Type="VI" URL="../SetIntakeState.vi"/>
 			<Item Name="StatesTypeDef.ctl" Type="VI" URL="../StatesTypeDef.ctl"/>
 			<Item Name="SwitchStates.vi" Type="VI" URL="../SwitchStates.vi"/>
 		</Item>
