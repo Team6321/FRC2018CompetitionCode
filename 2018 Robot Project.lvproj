@@ -126,7 +126,8 @@ AddOutputFilter chunkFilter
 		<Item Name="Vision" Type="Folder" URL="../Vision">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Intake Code" Type="Folder" URL="../Intake Code">
+		<Item Name="Intake Code" Type="Folder"/>
+		<Item Name="Intake" Type="Folder" URL="../Intake">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
@@ -553,6 +554,9 @@ AddOutputFilter chunkFilter
 			<Item Name="libc.so.6" Type="Document" URL="libc.so.6">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="SetIntakeState.vi" Type="VI" URL="../SetIntakeState.vi"/>
+			<Item Name="StatesTypeDef.ctl" Type="VI" URL="../StatesTypeDef.ctl"/>
+			<Item Name="SwitchStates.vi" Type="VI" URL="../SwitchStates.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
