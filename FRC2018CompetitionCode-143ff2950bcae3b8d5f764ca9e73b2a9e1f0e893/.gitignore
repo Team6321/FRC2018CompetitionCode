@@ -1,6 +1,7 @@
 # Libraries
 *.lvlibp
 *.llb
+*.aliases
 
 # Shared objects (inc. Windows DLLs)
 *.dll
